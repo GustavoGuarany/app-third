@@ -1,0 +1,22 @@
+
+<div id="<%= dom_id coin %>">
+  <table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+          <th> Descrição </th>
+          <th> Sigla </th>
+          <th> Imagem </th>
+          <th colspan="3"></th>
+        </tr>
+    </thead>
+    <tbody> 
+      <tr>
+        <td><%= coin.description %></td>
+        <td><%= coin.acronym %></td>
+        <td><%= image_tag  coin.url_image, size: "45x45" %></td>
+      </tr>
+      
+    </tbody>   
+    </tr>
+  </table>
+</div>
